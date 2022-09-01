@@ -18,7 +18,10 @@ type Page struct {
 						MergedAt  time.Time `json:"mergedAt"`
 						CreatedAt time.Time `json:"createdAt"`
 						Number    int       `json:"number"`
-						Reviews   struct {
+						Author    struct {
+							Login string `json:"login"`
+						} `json:"author"`
+						Reviews struct {
 							Edges []struct {
 								Node struct {
 									State  string `json:"state"`
