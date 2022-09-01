@@ -6,7 +6,7 @@ Usage (if you have Go installed :D)
 - cd into the repo
 - `go build`
 
-- to extract the results (hardcoded for dates after 01/08/2022 for now)
+- to extract the results (hardcoded for dates 01/08/2022 - 31/08/2022 for now)
 
 `./gh_stats -t <your Github API token> > stats.csv`
 
